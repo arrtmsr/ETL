@@ -75,5 +75,4 @@ def get_features(df: pd.DataFrame, feature_group_name: str, export_format: str) 
             df.to_csv('export_data.csv', sep=';', index=False)
 
 
-
 get_features(df, 'stulya', 'xls')
